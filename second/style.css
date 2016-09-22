@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-box {
+  position: absolute;
+  left: 0%;
+  width: 34%;
+  height: 100vh;
+  background: rgb(74,144,226);
+}
+
+.center-box {
+  position: absolute;
+  right: 34%;
+  width: 34%;
+  height: 100vh;
+  background: rgb(80,227,194);
+}
+
+.right-box {
+  position: absolute;
+  right: 0%;
+  width: 34%;
+  height: 100vh;
+  background: rgb(184,233,134);
+}
+
+.red-box {
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  background: rgb(208,2,27);
+  width: 34%;
+  height: 150px;
+  padding-top: 57px;
+}
+
+.h1 {
+  font-size: 23px;
+  color: white;
+}
